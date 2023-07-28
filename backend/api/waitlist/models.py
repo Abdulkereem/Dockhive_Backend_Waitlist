@@ -1,10 +1,7 @@
 from django.db import models
 
-# Create your models here.
-from django.db import models
-
 class Waitlist(models.Model):
-    email = models.EmailField()
+    email = models.EmailField(unique=True)  
     full_name = models.CharField(max_length=50)
     country = models.CharField(max_length=20)
 
