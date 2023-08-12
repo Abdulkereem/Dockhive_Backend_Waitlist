@@ -4,4 +4,4 @@ from .models import Waitlist
 class WaitlistSerializer(serializers.ModelSerializer):
     class Meta:
         model = Waitlist
-        fields = ('id', 'email', 'full_name', 'country')
+        fields = ('id', 'email', 'full_name', 'occupation', 'country')
