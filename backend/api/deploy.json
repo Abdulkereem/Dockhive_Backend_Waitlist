@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "MailSender",
+            "name": "WaitListBackend",
             "script": "python3",
             "args" : "manage.py runserver"
         }
