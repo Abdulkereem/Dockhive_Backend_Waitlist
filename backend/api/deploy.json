@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "MailSender",
+            "script": "python3",
+            "args" : "manage.py runserver"
+        }
+    ]
+}
